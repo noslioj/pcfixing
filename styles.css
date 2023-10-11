@@ -1,0 +1,79 @@
+/* styles.css */
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background: url('tecnologia.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    color: #00b0f0;
+}
+
+/* Estilizando a lista de serviços */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 5px 0;
+}
+
+/* Estilos para o rodapé */
+footer {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    color: #00b0f0;
+}
+
+/* Estilo para links no rodapé */
+footer a {
+    color: #00b0f0;
+    text-decoration: none;
+}
+
+/* Estilo para o cabeçalho da seção "Entre em Contato" */
+section:last-child {
+    border-top: 1px solid #00b0f0;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+/* Ajustes responsivos */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 24px;
+    }
+}
